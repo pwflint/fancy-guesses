@@ -2,9 +2,9 @@
 title: "fancy-guesses"
 ---
 
-This is a Quarto website.
+Hello.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+This is an amateur exploration of data science, what I refer to as "the Art of making Fancy Guesses."
 
 ```{r}
 1 + 1

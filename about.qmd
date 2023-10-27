@@ -1,5 +1,6 @@
 ---
 title: "About"
+author: "Peter W. Flint"
 ---
 
 About this site

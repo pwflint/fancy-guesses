@@ -2,7 +2,7 @@ project:
   type: website
 
 website:
-  title: "fancy-guesses"
+  title: "Fancy Guesses"
   navbar:
     left:
       - href: index.qmd
@@ -11,9 +11,11 @@ website:
 
 format:
   html:
-    theme: cosmo
+    theme: sketchy
     css: styles.css
     toc: true
+    backgroundcolor: "#FFFAED"
+    
 
 editor: visual
 
