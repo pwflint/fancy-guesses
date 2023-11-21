@@ -3,7 +3,7 @@ title: "About"
 author: "Peter W. Flint"
 ---
 
-About this site
+About this site. This gets more in depth into my reasoning for the undertaking. It includes either a slight introduction or directs to my KED bio. It will probably not have much code on it either.
 
 ```{r}
 1 + 1

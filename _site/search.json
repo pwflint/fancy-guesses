@@ -4,13 +4,41 @@
     "href": "index.html",
     "title": "fancy-guesses",
     "section": "",
-    "text": "Hello.\nThis is an amateur exploration of data science, what I refer to as “the Art of making Fancy Guesses.”\n\n1 + 1\n\n[1] 2"
+    "text": "Hello.\nThis is an amateur exploration of data science, what I refer to as “the Art of making Fancy Guesses.”"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "text": "About this site. This gets more in depth into my reasoning for the undertaking. It includes either a slight introduction or directs to my KED bio. It will probably not have much code on it either.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "beginnings.html",
+    "href": "beginnings.html",
+    "title": "Beginnings",
+    "section": "",
+    "text": "This should be list page, with grid of various tutorial projects and reflections on learning."
+  },
+  {
+    "objectID": "index.html#intro",
+    "href": "index.html#intro",
+    "title": "fancy-guesses",
+    "section": "",
+    "text": "Hello.\nThis is an amateur exploration of data science, what I refer to as “the Art of making Fancy Guesses.”"
+  },
+  {
+    "objectID": "index.html#middle",
+    "href": "index.html#middle",
+    "title": "fancy-guesses",
+    "section": "Middle",
+    "text": "Middle\nThis is the landing page. It will briefly introduce the premise and manage expectations. I suspect it will have no code."
+  },
+  {
+    "objectID": "index.html#thoughts",
+    "href": "index.html#thoughts",
+    "title": "fancy-guesses",
+    "section": "Thoughts",
+    "text": "Thoughts\nI am using the “sketchy” theme. I like how it styles out the &lt;divs&gt;, but I think the body font needs to be cleaner (sans serif, modern) and I’d like to change the h1 fonts to Fredericka.\nThere is currently a sidebar and a navbar but we probably only need one for starting out.\n\nCode Examples\n\n1 + 1\n\n\n\n[1] 2"
   }
 ]

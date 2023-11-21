@@ -3,11 +3,23 @@ project:
 
 website:
   title: "Fancy Guesses"
-  navbar:
+  search: false
+  navbar: 
     left:
       - href: index.qmd
         text: Home
       - about.qmd
+      - beginnings.qmd
+  sidebar: 
+    style: floating
+    search: true
+    contents: 
+      - section: "Stuff"
+        contents: 
+          - about.qmd
+      - section: "Things"
+        contents: 
+          - beginnings.qmd
 
 format:
   html:
