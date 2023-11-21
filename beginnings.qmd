@@ -1,6 +1,27 @@
 ---
 title: "Beginnings"
 author: "Peter W. Flint"
+listing: 
+  contents: posts
+  type: grid
+  sort: date
+  image-placeholder: "_assets/img-default.jpg"
+  categories: cloud
+  feed: true
+sidebar: 
+  style: floating
+  search: true
+  contents: 
+    - section: "Stuff"
+      contents: 
+        - about.qmd
+    - section: "Things"
+      contents: 
+        - beginnings.qmd
 ---
 
 This should be list page, with grid of various tutorial projects and reflections on learning.
+
+More options for how list pages work can be found [here](https://quarto.org/docs/websites/website-listings.html#user-tools).
+
+Overview for post directory is [here](https://quarto.org/docs/websites/website-blog.html#posts-directory).

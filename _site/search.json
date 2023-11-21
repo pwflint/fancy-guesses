@@ -2,7 +2,7 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "fancy-guesses",
+    "title": "Fancy Guesses",
     "section": "",
     "text": "Hello.\nThis is an amateur exploration of data science, what I refer to as “the Art of making Fancy Guesses.”"
   },
@@ -18,26 +18,26 @@
     "href": "beginnings.html",
     "title": "Beginnings",
     "section": "",
-    "text": "This should be list page, with grid of various tutorial projects and reflections on learning."
+    "text": "This should be list page, with grid of various tutorial projects and reflections on learning.\nMore options for how list pages work can be found here.\nOverview for post directory is here.\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html#intro",
     "href": "index.html#intro",
-    "title": "fancy-guesses",
+    "title": "Fancy Guesses",
     "section": "",
     "text": "Hello.\nThis is an amateur exploration of data science, what I refer to as “the Art of making Fancy Guesses.”"
   },
   {
     "objectID": "index.html#middle",
     "href": "index.html#middle",
-    "title": "fancy-guesses",
+    "title": "Fancy Guesses",
     "section": "Middle",
     "text": "Middle\nThis is the landing page. It will briefly introduce the premise and manage expectations. I suspect it will have no code."
   },
   {
     "objectID": "index.html#thoughts",
     "href": "index.html#thoughts",
-    "title": "fancy-guesses",
+    "title": "Fancy Guesses",
     "section": "Thoughts",
     "text": "Thoughts\nI am using the “sketchy” theme. I like how it styles out the &lt;divs&gt;, but I think the body font needs to be cleaner (sans serif, modern) and I’d like to change the h1 fonts to Fredericka.\nThere is currently a sidebar and a navbar but we probably only need one for starting out.\n\nCode Examples\n\n1 + 1\n\n\n\n[1] 2"
   }

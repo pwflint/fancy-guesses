@@ -1,8 +1,14 @@
+# This document provides the default settings for the entire site.
+# Settings can be overridden by including additional options in YML headers on 
+# specific pages.
+
 project:
   type: website
 
 website:
   title: "Fancy Guesses"
+  site-url: https://fancy-guesses.co
+  description: "A place for playing with data science workflows"
   search: false
   navbar: 
     left:
@@ -10,21 +16,11 @@ website:
         text: Home
       - about.qmd
       - beginnings.qmd
-  sidebar: 
-    style: floating
-    search: true
-    contents: 
-      - section: "Stuff"
-        contents: 
-          - about.qmd
-      - section: "Things"
-        contents: 
-          - beginnings.qmd
 
 format:
   html:
     theme: sketchy
-    css: styles.css
+    css: _assets/styles.css
     toc: true
     backgroundcolor: "#FFFAED"
     

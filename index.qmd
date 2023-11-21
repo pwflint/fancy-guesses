@@ -1,5 +1,5 @@
 ---
-title: "fancy-guesses"
+title: "Fancy Guesses"
 ---
 
 ## Intro

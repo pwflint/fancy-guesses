@@ -1,0 +1,18 @@
+/* css styles */
+
+$navbar-bg: "#2F383E"
+$navbar-fg: "#FFFAED"
+
+/* Navigation bar styles */
+.navbar-item {
+    /* Your regular styles here */
+    padding: 10px;
+    text-decoration: none;
+    color: #FFFAED;
+    transition: color 0.3s; /* Smooth transition for the color change */
+}
+
+/* Hover effect */
+.navbar-item:hover {
+    color: #8DF2F3; /* Change the color on hover */
+}
