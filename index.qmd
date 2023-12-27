@@ -29,3 +29,11 @@ There is currently a sidebar and a navbar but we probably only need one for star
 #| echo: false
 1 + 1
 ```
+
+<footer>
+
+<p>This page is a work-in-progress and should be taken with as much sincerity as the tone of its overall content.</p>
+
+<a href="https://mindly.social/@pwflint" target="_blank"> <img src="path/to/mastodon-icon.png" alt="Mastodon Icon" width="50" height="50"/> </a>
+
+</footer>

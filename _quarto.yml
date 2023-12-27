@@ -10,12 +10,19 @@ website:
   site-url: https://fancy-guesses.co
   description: "A place for playing with data science workflows"
   search: false
+  sidebar: false
   navbar: 
-    left:
+    css: _assets/styles.css
+    right:
       - href: index.qmd
         text: Home
       - about.qmd
       - beginnings.qmd
+    collapse: true
+    collapse-below: md
+  open-graph:
+    locale: en_US
+    site-name: Fancy Guesses
 
 format:
   html:
@@ -23,7 +30,12 @@ format:
     css: _assets/styles.css
     toc: true
     backgroundcolor: "#FFFAED"
+    mainfont: Yantramanav
+
     
 
 editor: visual
+
+
+
 
