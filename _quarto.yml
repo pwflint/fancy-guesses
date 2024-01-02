@@ -20,13 +20,13 @@ website:
       - beginnings.qmd
     collapse: true
     collapse-below: md
+    title: FG
   open-graph:
     locale: en_US
     site-name: Fancy Guesses
 
 format:
   html:
-    theme: sketchy
     css: _assets/styles.css
     toc: true
     backgroundcolor: "#FFFAED"

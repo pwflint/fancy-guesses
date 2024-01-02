@@ -18,7 +18,7 @@ I am using the "sketchy" theme. I like how it styles out the \<divs\>, but I thi
 
 There is currently a sidebar and a navbar but we probably only need one for starting out.
 
-### Code Examples
+#### Code Examples
 
 ```{r}
 #| output: false

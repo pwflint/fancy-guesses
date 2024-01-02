@@ -19,8 +19,10 @@
 }
 
 .navbar-title {
-    font-family: 'Londrina Shadow', sans-serif;
+    font-family: 'Fredericka the Great', sans-serif;
     font-size: 30px;
+    color: #FFFAED;
+    font-weight: normal;
 }
 
 /* Hover effect */
@@ -35,7 +37,13 @@
   font-weight: normal;
 }
 
+h1, h2 {
+  font-weight: bold;
+}
 
+h3, h4 {
+  font-weight: light;
+}
 
 .footer {
   background-color: #33414B;
