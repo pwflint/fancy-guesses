@@ -2,33 +2,11 @@
 title: "Fancy Guesses"
 ---
 
-## Intro
+## Welcome
 
 Hello.
 
-This is an amateur exploration of data science, what I refer to as "the Art of making Fancy Guesses."
-
-## Middle
-
-This is the landing page. It will briefly introduce the premise and manage expectations. I suspect it will have no code.
-
-## Thoughts
-
-I am using the "sketchy" theme. I like how it styles out the \<divs\>, but I think the body font needs to be cleaner (sans serif, modern) and I'd like to change the h1 fonts to Fredericka.
-
-There is currently a sidebar and a navbar but we probably only need one for starting out.
-
-#### Code Examples
-
-```{r}
-#| output: false
-1 + 1
-```
-
-```{r}
-#| echo: false
-1 + 1
-```
+This is an amateur exploration of data science, what I refer to as "the Art of making Fancy Guesses." It is a playful approach to a difficult subject. You can learn more about the history of this project [here](about.qmd).
 
 <footer>
 
