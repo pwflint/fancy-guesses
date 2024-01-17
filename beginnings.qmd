@@ -14,10 +14,7 @@ sidebar:
   contents: 
     - section: "Stuff"
       contents: 
-        - about.qmd
-    - section: "Things"
-      contents: 
-        - beginnings.qmd
+        - "_posts/*.qmd"
 ---
 
 This a collection of early reflections and tutorials I found helpful as I started learning data science. A comprehensive list of all resources is included on the [bookmarks](bookmarks.qmd) page. The early stages of of this project are focused on creating personal accountability in distilling my notes into coherent thoughts.
