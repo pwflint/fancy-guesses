@@ -2,7 +2,7 @@
 title: "Beginnings"
 author: "Peter W. Flint"
 listing: 
-  contents: posts
+  contents: _posts
   type: grid
   sort: date
   image-placeholder: "_assets/img-default.jpg"

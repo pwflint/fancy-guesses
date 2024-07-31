@@ -1,6 +1,10 @@
 [
   {
     "listing": "/beginnings.html",
-    "items": []
+    "items": [
+      "/index.html",
+      "/about.html",
+      "/bookmarks.html"
+    ]
   }
 ]
