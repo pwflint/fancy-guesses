@@ -21,9 +21,9 @@ The first part of generating data frames and output is fairly straightforward an
 
 I'm am interested in both of these tool sets to see if they can be paired with spatial data objects to illustrate existing terrains.
 
-\### Scripts From Danielle:
+### Scripts From Danielle:
 
-\#### Set Up Canvas
+#### Set Up Canvas
 
 ``` r
 # Set seed seed <- sample(1:100, 1)

@@ -18,16 +18,11 @@ website:
       - href: index.qmd
         text: Home
       - about.qmd
-      - href: beginnings.qmd
+      - href: _posts/beginnings.qmd
         text: Beginnings
     collapse: true
     collapse-below: md
     title: FG
-  page-footer: 
-    background: "#33414B"
-    center: |
-      This is a work-in-progress and should be taken with as much sincerity as the overall tone of its content.
-    
   open-graph:
     locale: en_US
     site-name: Fancy Guesses

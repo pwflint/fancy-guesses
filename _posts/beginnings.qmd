@@ -9,10 +9,7 @@ listing:
 sidebar: 
   style: floating
   search: true
-  contents: 
-    - section: "Stuff"
-      contents: 
-        - "_posts/*.qmd"
+  contents: "_posts/*.qmd"
 format:
   html:
     css: _assets/styles.css

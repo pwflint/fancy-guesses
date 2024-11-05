@@ -1,15 +1,14 @@
 ---
 title: "Fancy Guesses"
+author: "Peter W. Flint"
 ---
 
 ## Welcome
 
 Hello.
 
-This is an amateur exploration of data science, what I refer to as "the Art of making Fancy Guesses." It is a playful approach to a difficult subject. You can learn more about the history of this project [here](about.qmd).
+This is an amateur exploration of data science, what I refer to as "the Art of making Fancy Guesses." It is a playful approach to a difficult subject. I want to understand how data is obtained and organized before it is distilled into a communication artifact. It has been [observed](https://www.nakedcapitalism.com/2024/04/devolution-and-the-decline-in-operational-capacity-and-elite-managerial-competence.html) that the obsolescence of computation by hand in the financial sector may have contributed to the decline of its operational capacity and managerial competence. I think a similar argument can be made for how we engage with data. Understanding the process by which it is obtained, interpreted, and distilled equips us to better evaluate its quality and relevance.
 
-<footer>
+There is a creative tension between education for the sake of private business goals and curating knowledge for general use. I believe a business should always orient its training around organization -specific workflows but should provide resources and arguments about *why* that specific workflow is used. The pitfall of workflow-specific training is that it tends to lose philosophical relevance over time as the procedures are passed down to subsequent generations of workers, and are iterated over as they adapt to changing technology. After a few years, the reasoning behind certain methods becomes lost and it is simply "the way its always been done." This eventually stifles innovation in the workflow. Maintaining awareness of principles behind tools and practices helps with adaptations to new circumstances over time.
 
-<p>This page is a work-in-progress and should be taken with as much sincerity as the tone of its overall content.</p>
-
-</footer>
+You can learn more about the history of this project [here](about.qmd).
