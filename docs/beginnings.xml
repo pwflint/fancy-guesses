@@ -10,7 +10,7 @@
 <atom:link href="https://fancy-guesses.co/beginnings.xml" rel="self" type="application/rss+xml"/>
 <description>A place for playing with data science workflows</description>
 <generator>quarto-1.4.555</generator>
-<lastBuildDate>Tue, 05 Nov 2024 17:36:50 GMT</lastBuildDate>
+<lastBuildDate>Tue, 05 Nov 2024 19:02:36 GMT</lastBuildDate>
 <item>
   <title>Fancy Guesses</title>
   <dc:creator>Peter W. Flint</dc:creator>
@@ -32,7 +32,7 @@
 
  ]]></description>
   <guid>https://fancy-guesses.co/</guid>
-  <pubDate>Tue, 05 Nov 2024 17:36:50 GMT</pubDate>
+  <pubDate>Tue, 05 Nov 2024 19:02:36 GMT</pubDate>
 </item>
 <item>
   <title>About</title>
@@ -68,7 +68,7 @@
 
  ]]></description>
   <guid>https://fancy-guesses.co/about.html</guid>
-  <pubDate>Tue, 05 Nov 2024 17:36:50 GMT</pubDate>
+  <pubDate>Tue, 05 Nov 2024 19:02:36 GMT</pubDate>
 </item>
 <item>
   <title>Bookmarks</title>
@@ -78,18 +78,31 @@
 
 
 
+
 <section id="resources" class="level2">
+
+<section id="general" class="level3">
 
 <ul>
 <li></li>
 </ul>
+</section>
+<section id="tutorials" class="level3">
+
+<section id="generative-art" class="level4">
+
+<ul>
+<li><a href="https://blog.djnavarro.net/posts/2023-03-13_shattered-landscapes/">Shattered Landscapes</a> by Danielle Navarro</li>
+</ul>
 
 
+</section>
+</section>
 </section>
 
  ]]></description>
   <guid>https://fancy-guesses.co/bookmarks.html</guid>
-  <pubDate>Tue, 05 Nov 2024 17:36:50 GMT</pubDate>
+  <pubDate>Tue, 05 Nov 2024 19:02:36 GMT</pubDate>
 </item>
 </channel>
 </rss>

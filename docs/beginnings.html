@@ -62,7 +62,7 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
       
       searchColumns: ["listing-title","listing-author","listing-image","listing-description","listing-categories"],
     };
@@ -191,8 +191,20 @@ window.Quarto = {
 
 
 <div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+     <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+       <option value="" disabled="" selected="" hidden="">Order By</option>
+       <option value="index" data-direction="asc">Default</option>
+         <option value="listing-title" data-direction="asc">
+          Title
+        </option>
+     </select>
+  </div>
+</div>
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1730828206870" data-listing-reading-time-sort="2" data-listing-word-count-sort="243">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1730828257916" data-listing-reading-time-sort="2" data-listing-word-count-sort="243">
 <a href="./index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top"><img src="_assets/img-default.jpg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
@@ -232,7 +244,7 @@ Peter W. Flint
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1705436247946" data-listing-reading-time-sort="1" data-listing-word-count-sort="4">
+<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1730831973498" data-listing-reading-time-sort="1" data-listing-word-count-sort="15">
 <a href="./bookmarks.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top"><img src="_assets/img-default.jpg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
@@ -243,11 +255,23 @@ Bookmarks
 <div class="card-text listing-description">
 
 
+<section id="general" class="level3">
+
 <ul>
 <li></li>
 </ul>
+</section>
+<section id="tutorials" class="level3">
+
+<section id="generative-art" class="level4">
+
+<ul>
+<li>Shattered Landscapes by Danielle Navarro</li>
+</ul>
 
 
+</section>
+</section>
 
 </div>
 <div class="card-attribution card-text-small start">

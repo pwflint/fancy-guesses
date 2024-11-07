@@ -11,6 +11,11 @@ format:
     toc: true
     backgroundcolor: "#FFFAED"
     mainfont: Yantramanav
+listing:
+  id: sample-listings
+  contents: posts
+  sort: "date desc"
+  type: table
 ---
 
 ## Playing With `Ambient`
@@ -78,7 +83,7 @@ bitmap[1:6, 1:6]
 canvas |>    as.array(value = paint) |>   image(axes = FALSE, asp = 1, useRaster = TRUE) 
 ```
 
-![Basic map with ambient noise function.](/_assets/shattered_set3_1.png){fig-alt="A two-dimensional \"heat map\" of noise created by applying a random seed number to a generative spatial function."}
+![Basic map with ambient noise function.](/_assets/shattered_set3_1.png){fig-alt="A two-dimensional \"heat map\" of noise created by applying a random seed number to a generative spatial function." fig-align="center"}
 
 #### Render 3D
 
@@ -110,7 +115,7 @@ render <- function(mat, shades = NULL, zscale = .005) {
 canvas |> as.array(value = paint) |> render()
 ```
 
-![The rendered output using \`Rayshader\`](/_assets/shattered_set3_2.png){fig-alt="A three-dimensional rendered image of the previous heat map."}
+![The rendered output using \`Rayshader\`](/_assets/shattered_set3_2.png){fig-alt="A three-dimensional rendered image of the previous heat map." fig-aling="center"}
 
 ``` r
 # sea_level creates a datum that cuts off at the median value of the 'paint' column
@@ -129,7 +134,7 @@ canvas |>
   render()
 ```
 
-![The rendered map with a 'sea level' applied.](/_assets/shattered_set3_3.png)\
+![The rendered map with a 'sea level' applied.](/_assets/shattered_set3_3.png){fig-align="center"}
 You could stop here and play with various arguments for a little while to see how each function works.
 
 #### Getting Weird

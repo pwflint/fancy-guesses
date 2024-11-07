@@ -3,16 +3,14 @@ title: "Beginnings"
 listing: 
   type: grid
   sort: date
+  sort-ui: [title, date]
   image-placeholder: "_assets/img-default.jpg"
   categories: cloud
   feed: true
 sidebar: 
   style: floating
   search: true
-  contents: 
-    - section: "Stuff"
-      contents: 
-        - "_posts/*.qmd"
+  contents: _posts/
 format:
   html:
     css: _assets/styles.css
