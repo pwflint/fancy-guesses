@@ -18,7 +18,7 @@ website:
       - href: index.qmd
         text: Home
       - about.qmd
-      - href: beginnings.qmd
+      - href: posts/beginnings.qmd
         text: Beginnings
     collapse: true
     collapse-below: md
