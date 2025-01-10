@@ -11,7 +11,8 @@ CNAME
 # Session Data files
 .RData
 .RDataTmp
-DS_Store
+.DS_Store
+*.RData
 
 # User-specific files
 .Ruserdata
