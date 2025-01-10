@@ -8,7 +8,7 @@
 
 <meta name="author" content="Peter W. Flint">
 
-<title>Playing With Ambient</title>
+<title>Fancy Guesses - Playing With Ambient</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -58,27 +58,85 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </style>
 
 
-<script src="shattered_files/libs/clipboard/clipboard.min.js"></script>
-<script src="shattered_files/libs/quarto-html/quarto.js"></script>
-<script src="shattered_files/libs/quarto-html/popper.min.js"></script>
-<script src="shattered_files/libs/quarto-html/tippy.umd.min.js"></script>
-<script src="shattered_files/libs/quarto-html/anchor.min.js"></script>
-<link href="shattered_files/libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="shattered_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="shattered_files/libs/bootstrap/bootstrap.min.js"></script>
-<link href="shattered_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="shattered_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
 
 
-<link rel="stylesheet" href="_assets/styles.css">
+<link rel="stylesheet" href="../assets/styles.css">
+<link rel="stylesheet" href="assets/styles.css">
+<meta property="og:title" content="Fancy Guesses - Playing With Ambient">
+<meta property="og:description" content="A place for playing with data science workflows">
+<meta property="og:site_name" content="Fancy Guesses">
+<meta property="og:locale" content="en_US">
 </head>
 
-<body>
+<body class="nav-fixed">
 
-<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
-<div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-  <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Table of contents</h2>
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-md " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">FG</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../beginnings.html"> 
+<span class="menu-text">Beginnings</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
    
   <ul>
   <li><a href="#playing-with-ambient" id="toc-playing-with-ambient" class="nav-link active" data-scroll-target="#playing-with-ambient">Playing With <code>Ambient</code></a>
@@ -89,7 +147,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
   </ul>
 </nav>
-</div>
+    </div>
+<!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
@@ -173,7 +232,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>canvas <span class="sc">|&gt;</span>    <span class="fu">as.array</span>(<span class="at">value =</span> paint) <span class="sc">|&gt;</span>   <span class="fu">image</span>(<span class="at">axes =</span> <span class="cn">FALSE</span>, <span class="at">asp =</span> <span class="dv">1</span>, <span class="at">useRaster =</span> <span class="cn">TRUE</span>) </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="/_assets/shattered_set3_1.png" class="img-fluid figure-img" alt="A two-dimensional &quot;heat map&quot; of noise created by applying a random seed number to a generative spatial function."></p>
+<p><img src="../assets/shattered_set3_1.png" class="img-fluid figure-img" alt="A two-dimensional &quot;heat map&quot; of noise created by applying a random seed number to a generative spatial function."></p>
+<figcaption>Basic map with ambient noise function.</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../_assets/shattered_set3_1.png" class="img-fluid figure-img" alt="A two-dimensional &quot;heat map&quot; of noise created by applying a random seed number to a generative spatial function."></p>
 <figcaption>Basic map with ambient noise function.</figcaption>
 </figure>
 </div>
@@ -207,7 +272,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb5-25"><a href="#cb5-25" aria-hidden="true" tabindex="-1"></a>canvas <span class="sc">|&gt;</span> <span class="fu">as.array</span>(<span class="at">value =</span> paint) <span class="sc">|&gt;</span> <span class="fu">render</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="/_assets/shattered_set3_2.png" class="img-fluid figure-img" alt="A three-dimensional rendered image of the previous heat map."></p>
+<p><img src="../assets/shattered_set3_2.png" class="img-fluid figure-img" alt="A three-dimensional rendered image of the previous heat map."></p>
+<figcaption>The rendered output using `Rayshader`</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../_assets/shattered_set3_2.png" class="img-fluid figure-img" alt="A three-dimensional rendered image of the previous heat map."></p>
 <figcaption>The rendered output using `Rayshader`</figcaption>
 </figure>
 </div>
@@ -225,7 +296,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb6-12"><a href="#cb6-12" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">|&gt;</span></span>
 <span id="cb6-13"><a href="#cb6-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">as.array</span>(<span class="at">value =</span> islands) <span class="sc">|&gt;</span></span>
 <span id="cb6-14"><a href="#cb6-14" aria-hidden="true" tabindex="-1"></a>  <span class="fu">render</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p><img src="/_assets/shattered_set3_3.png" class="img-fluid quarto-figure quarto-figure-center" alt="The rendered map with a ‘sea level’ applied."> You could stop here and play with various arguments for a little while to see how each function works.</p>
+<p><img src="../assets/shattered_set3_3.png" class="img-fluid quarto-figure quarto-figure-center" alt="The rendered map with a ‘sea level’ applied."> You could stop here and play with various arguments for a little while to see how each function works.</p>
 </section>
 <section id="getting-weird" class="level4">
 <h4 class="anchored" data-anchor-id="getting-weird">Getting Weird</h4>
@@ -269,14 +340,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb7-37"><a href="#cb7-37" aria-hidden="true" tabindex="-1"></a>  <span class="fu">render</span>(<span class="at">zscale =</span> .<span class="dv">01</span>) </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="/_assets/shattered_set3_4.png" class="img-fluid figure-img" alt="An image of the rendered 3d map distorted into bands of ridges."></p>
+<p><img src="../assets/shattered_set3_4.png" class="img-fluid figure-img" alt="An image of the rendered 3d map distorted into bands of ridges."></p>
 <figcaption>The ‘shattered’ landscape.</figcaption>
 </figure>
 </div>
 <p>Additional scripts are in the project folder and utilize some interesting functions such as <strong>curl fields</strong> and <strong>curl transformations</strong> that use a <code>discretize()</code> function to create a terracing effect. Much of the output looks like code going through puberty, awkward and unclear as to its outcome. Additoinally, there are some examples of creating different color palettes than the default <code>YlOrRd</code> being used by the native functions in the code. My final output looked like this:</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="/_assets/shattered_set3_10.png" class="img-fluid figure-img" alt="An image of the final 3d map after several series of distortions."></p>
+<p><img src="../assets/shattered_set3_10.png" class="img-fluid figure-img" alt="An image of the final 3d map after several series of distortions."></p>
 <figcaption>‘Queered’ geography.</figcaption>
 </figure>
 </div>
@@ -295,10 +366,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <ol type="1">
 <li>Navarro, Danielle. 2023.&nbsp;“Shattered Landscapes.”&nbsp;March 13, 2023.&nbsp;<a href="https://blog.djnavarro.net/posts/2023-03-13_shattered-landscapes" class="uri">https://blog.djnavarro.net/posts/2023-03-13_shattered-landscapes</a>.</li>
 </ol>
+
+
 </section>
 
-</main>
-<!-- /main column -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -380,7 +452,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/fancy-guesses\.co");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
@@ -709,6 +781,19 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+<p>This is a work-in-progress and should be taken with as much sincerity as the overall tone of its content.</p>
+</div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
 
 
 

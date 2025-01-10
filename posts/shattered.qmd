@@ -7,15 +7,10 @@ categories:
   - generativeRt
 format:
   html:
-    css: _assets/styles.css
+    css: assets/styles.css
     toc: true
     backgroundcolor: "#FFFAED"
     mainfont: Yantramanav
-listing:
-  id: sample-listings
-  contents: posts
-  sort: "date desc"
-  type: table
 ---
 
 ## Playing With `Ambient`
@@ -83,6 +78,8 @@ bitmap[1:6, 1:6]
 canvas |>    as.array(value = paint) |>   image(axes = FALSE, asp = 1, useRaster = TRUE) 
 ```
 
+![Basic map with ambient noise function.](/assets/shattered_set3_1.png){fig-alt="A two-dimensional \"heat map\" of noise created by applying a random seed number to a generative spatial function." fig-align="center"}
+
 ![Basic map with ambient noise function.](/_assets/shattered_set3_1.png){fig-alt="A two-dimensional \"heat map\" of noise created by applying a random seed number to a generative spatial function." fig-align="center"}
 
 #### Render 3D
@@ -115,6 +112,8 @@ render <- function(mat, shades = NULL, zscale = .005) {
 canvas |> as.array(value = paint) |> render()
 ```
 
+![The rendered output using \`Rayshader\`](/assets/shattered_set3_2.png){fig-aling="center" fig-alt="A three-dimensional rendered image of the previous heat map."}
+
 ![The rendered output using \`Rayshader\`](/_assets/shattered_set3_2.png){fig-alt="A three-dimensional rendered image of the previous heat map." fig-aling="center"}
 
 ``` r
@@ -134,8 +133,7 @@ canvas |>
   render()
 ```
 
-![The rendered map with a 'sea level' applied.](/_assets/shattered_set3_3.png){fig-align="center"}
-You could stop here and play with various arguments for a little while to see how each function works.
+![The rendered map with a 'sea level' applied.](/assets/shattered_set3_3.png){fig-align="center"} You could stop here and play with various arguments for a little while to see how each function works.
 
 #### Getting Weird
 
@@ -181,11 +179,11 @@ new_grid() |> dplyr::mutate(
   render(zscale = .01) 
 ```
 
-![The 'shattered' landscape.](/_assets/shattered_set3_4.png){fig-alt="An image of the rendered 3d map distorted into bands of ridges."}
+![The 'shattered' landscape.](/assets/shattered_set3_4.png){fig-alt="An image of the rendered 3d map distorted into bands of ridges."}
 
 Additional scripts are in the project folder and utilize some interesting functions such as **curl fields** and **curl transformations** that use a `discretize()` function to create a terracing effect. Much of the output looks like code going through puberty, awkward and unclear as to its outcome. Additoinally, there are some examples of creating different color palettes than the default `YlOrRd` being used by the native functions in the code. My final output looked like this:
 
-!['Queered' geography.](/_assets/shattered_set3_10.png){fig-alt="An image of the final 3d map after several series of distortions."}
+!['Queered' geography.](/assets/shattered_set3_10.png){fig-alt="An image of the final 3d map after several series of distortions."}
 
 ## Resources
 

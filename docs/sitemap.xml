@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://fancy-guesses.co/beginnings.html</loc>
-    <lastmod>2024-11-05T19:02:35.358Z</lastmod>
+    <lastmod>2025-01-10T19:41:07.328Z</lastmod>
   </url>
   <url>
     <loc>https://fancy-guesses.co/about.html</loc>
@@ -10,10 +10,18 @@
   </url>
   <url>
     <loc>https://fancy-guesses.co/index.html</loc>
-    <lastmod>2024-11-05T17:37:37.916Z</lastmod>
+    <lastmod>2025-01-10T19:41:14.271Z</lastmod>
   </url>
   <url>
     <loc>https://fancy-guesses.co/bookmarks.html</loc>
-    <lastmod>2024-11-05T18:39:33.498Z</lastmod>
+    <lastmod>2025-01-10T19:41:35.256Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fancy-guesses.co/posts/beginnings.html</loc>
+    <lastmod>2025-01-10T19:38:40.294Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fancy-guesses.co/posts/shattered.html</loc>
+    <lastmod>2025-01-10T19:46:27.593Z</lastmod>
   </url>
 </urlset>

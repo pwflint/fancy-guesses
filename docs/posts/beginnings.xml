@@ -6,11 +6,11 @@
       version="2.0">
 <channel>
 <title>Fancy Guesses</title>
-<link>https://fancy-guesses.co/beginnings.html</link>
-<atom:link href="https://fancy-guesses.co/beginnings.xml" rel="self" type="application/rss+xml"/>
+<link>https://fancy-guesses.co/posts/beginnings.html</link>
+<atom:link href="https://fancy-guesses.co/posts/beginnings.xml" rel="self" type="application/rss+xml"/>
 <description>A place for playing with data science workflows</description>
 <generator>quarto-1.4.555</generator>
-<lastBuildDate>Fri, 10 Jan 2025 19:41:09 GMT</lastBuildDate>
+<lastBuildDate>Fri, 10 Jan 2025 19:41:08 GMT</lastBuildDate>
 <item>
   <title>Playing With Ambient</title>
   <dc:creator>Peter W. Flint</dc:creator>
@@ -658,161 +658,7 @@ font-style: inherit;">01</span>) </span></code></pre></div>
   <category>spatial</category>
   <category>generativeRt</category>
   <guid>https://fancy-guesses.co/posts/shattered.html</guid>
-  <pubDate>Fri, 10 Jan 2025 19:41:09 GMT</pubDate>
-</item>
-<item>
-  <title>Beginnings</title>
-  <link>https://fancy-guesses.co/posts/beginnings.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>This a collection of early reflections and tutorials I found helpful as I started learning data science. A comprehensive list of all resources is included on the <a href="bookmarks.qmd">bookmarks</a> page. The early stages of of this project are focused on creating personal accountability in distilling my notes into coherent thoughts.</p>
-<p>More options for how list pages work can be found <a href="https://quarto.org/docs/websites/website-listings.html#user-tools">here</a>.</p>
-<p>Overview for post directory is <a href="https://quarto.org/docs/websites/website-blog.html#posts-directory">here</a>.</p>
-
-
-
-
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-     <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-       <option value="" disabled="" selected="" hidden="">Order By</option>
-       <option value="index" data-direction="asc">Default</option>
-         <option value="listing-title" data-direction="asc">
-          Title
-        </option>
-     </select>
-  </div>
-</div>
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="spatial,generativeRt" data-listing-file-modified-sort="1736537954326" data-listing-reading-time-sort="6" data-listing-word-count-sort="1177">
-<a href="../posts/shattered.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="https://fancy-guesses.co/../../../../../_assets/shattered_set3_1.png" alt="A two-dimensional " heat="" map"="" of="" noise="" created="" by="" applying="" a="" random="" seed="" number="" to="" generative="" spatial="" function."="" style="height: 150px;" class="thumbnail-image card-img"></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Playing With Ambient
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('spatial'); return false;">
-spatial
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('generativeRt'); return false;">
-generativeRt
-</div>
-</div>
-<div class="card-text listing-description">
-This is a walkthrough set up by Danielle Navarro, a data scientist with some interesting generative art work. The project explores the <code>Rayshader</code> and <code>ambient</code> packages to…<code></code><code></code><code></code><code></code><code></code>
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-Peter W. Flint
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div> ]]></description>
-  <guid>https://fancy-guesses.co/posts/beginnings.html</guid>
-  <pubDate>Fri, 10 Jan 2025 19:41:09 GMT</pubDate>
-</item>
-<item>
-  <title>Fancy Guesses</title>
-  <dc:creator>Peter W. Flint</dc:creator>
-  <link>https://fancy-guesses.co/</link>
-  <description><![CDATA[ 
-
-
-
-
-<section id="welcome" class="level2">
-<h2 class="anchored" data-anchor-id="welcome">Welcome</h2>
-<p>Hello.</p>
-<p>This is an amateur exploration of data science, what I refer to as “the Art of making Fancy Guesses.” It is a playful approach to a difficult subject. I want to understand how data is obtained and organized before it is distilled into a communication artifact. It has been <a href="https://www.nakedcapitalism.com/2024/04/devolution-and-the-decline-in-operational-capacity-and-elite-managerial-competence.html">observed</a> that the obsolescence of computation by hand in the financial sector may have contributed to the decline of its operational capacity and managerial competence. I think a similar argument can be made for how we engage with data. Understanding the process by which it is obtained, interpreted, and distilled equips us to better evaluate its quality and relevance.</p>
-<p>There is a creative tension between education for the sake of private business goals and curating knowledge for general use. I believe a business should always orient its training around organization -specific workflows but should provide resources and arguments about <em>why</em> that specific workflow is used. The pitfall of workflow-specific training is that it tends to lose philosophical relevance over time as the procedures are passed down to subsequent generations of workers, and are iterated over as they adapt to changing technology. After a few years, the reasoning behind certain methods becomes lost and it is simply “the way its always been done.” This eventually stifles innovation in the workflow. Maintaining awareness of principles behind tools and practices helps with adaptations to new circumstances over time.</p>
-<p>You can learn more about the history of this project <a href="./about.html">here</a>.</p>
-
-
-</section>
-
- ]]></description>
-  <guid>https://fancy-guesses.co/</guid>
-  <pubDate>Fri, 10 Jan 2025 19:41:09 GMT</pubDate>
-</item>
-<item>
-  <title>About</title>
-  <dc:creator>Peter W. Flint</dc:creator>
-  <link>https://fancy-guesses.co/about.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>Why do data science? My only excuse is that I stumbled into it accidentally. Several years ago I was taking an introductory course in GIS applications (I like maps), and my final project was to select an example map and create a walkthrough to recreate it. I chose the <a href="https://science.ebird.org/en/status-and-trends/abundance-maps">abundance maps</a> developed by eBird (I also like birds).</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://fancy-guesses.co/_assets/image_buhvir-abundance-map-v2022-en.png" class="img-fluid figure-img" alt="A map of North America illustrating the relative abundance of the Blue-Headed Vireo. The northern part is red to display its summer range. The middle is yellow, displaying its migratory range in Spring and Fall. The southern area is blue to display its Winter range."></p>
-<figcaption>The relative abundance of Blue-Headed Vireos, an inquisitive bird of summertime.</figcaption>
-</figure>
-</div>
-<p>It turns out, these maps are generated with R, a statistical computing language, and not a GIS, so I redirected. But I had now discovered data science.</p>
-<p>Data science is fucking hard. You have to learn programming. Then you have to learn statistics. Then you have to learn about bias. Then you have to learn best practices to avoid bias. Then you have to embark on an inward journey of the soul to investigate the source of your own implicit biases, identifying and eradicating fundamental parts of your established self-concept, and after several years of this and some complementary therapy, some janky fucking histogram is the best you can produce. Then you have to learn web design so you can publish your janky histogram.</p>
-<blockquote class="blockquote">
-<p><strong>Werner Herzog</strong></p>
-<p>Facts do not illuminate us.</p>
-</blockquote>
-<p>But in the process of all of this I’ve developed a real appreciation for the folks who manipulate and use data to communicate on a daily basis, and its contribution to how we understand ourselves and the world in which we live. Werner Herzog has an interesting <a href="https://www.newyorker.com/podcast/the-new-yorker-radio-hour/werner-herzog-defends-his-ecstatic-approach-to-the-truth">perspective</a> on facts. He says, “Facts do not illuminate us.”</p>
-<p>A data point is a fact, and a data set illustrates a trend, but it is up to us to translate the “facts” into a “story,” and stories transcend facts. A story is data arranged into <strong>Meaning</strong>. The scientific method prescribes that we approach the world with ambiguity, and this is largely useful. But it does not inspire us to incorporate new knowledge into our lives joyfully and creatively. Data can help tell a story, and the story invites us to consider how facts might contribute to new possibilities.</p>
-<p>I adhere to the <a href="https://www.readthesequences.com/Scientific-Evidence-Legal-Evidence-Rational-Evidence">principle</a> that publicly practiced science has greater epistemic authority. That said, I am not a formally trained data scientist, or any other kind of scientist. My interest in this field stems from a commitment to the <strong>craft</strong> of landscape design. To me, craft is the <strong>synthesis</strong> of art and science. Art informs creative <strong>freedom</strong>, science informs the <strong>limitations</strong> within which art is expressed. Much of what is popularly believed about landscapes is not scientifically derived. Ecosystems do not respond obediently methods of control. It is ultimately my hope to use data to illustrate the complexity informing the aesthetic appeal of wild beauty. This is the scientific component. It informs the limitations from which the artistic component emerges.</p>
-
-
-
- ]]></description>
-  <guid>https://fancy-guesses.co/about.html</guid>
-  <pubDate>Fri, 10 Jan 2025 19:41:09 GMT</pubDate>
-</item>
-<item>
-  <title>Bookmarks</title>
-  <dc:creator>Peter W. Flint</dc:creator>
-  <link>https://fancy-guesses.co/bookmarks.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<section id="resources" class="level2">
-
-<section id="general" class="level3">
-
-<ul>
-<li></li>
-</ul>
-</section>
-<section id="tutorials" class="level3">
-
-<section id="generative-art" class="level4">
-
-<ul>
-<li><a href="https://blog.djnavarro.net/posts/2023-03-13_shattered-landscapes/">Shattered Landscapes</a> by Danielle Navarro</li>
-</ul>
-
-
-</section>
-</section>
-</section>
-
- ]]></description>
-  <guid>https://fancy-guesses.co/bookmarks.html</guid>
-  <pubDate>Fri, 10 Jan 2025 19:41:09 GMT</pubDate>
+  <pubDate>Fri, 10 Jan 2025 19:41:08 GMT</pubDate>
 </item>
 </channel>
 </rss>

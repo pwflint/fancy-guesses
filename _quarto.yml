@@ -13,7 +13,7 @@ website:
   search: false
   sidebar: false
   navbar: 
-    css: _assets/styles.css
+    css: assets/styles.css
     right:
       - href: index.qmd
         text: Home
@@ -35,7 +35,7 @@ website:
 
 format:
   html:
-    css: _assets/styles.css
+    css: assets/styles.css
     toc: true
     backgroundcolor: "#FFFAED"
     mainfont: Yantramanav
