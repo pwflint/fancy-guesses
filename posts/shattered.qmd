@@ -133,7 +133,7 @@ canvas |>
 
 #### Getting Weird
 
-This manipulates the spatial noise generator by combining the primary noise functions in `ambient::fracture` with `ambient::gen_worley`. The result feels like sub-ducted geography as opposed to volcanic.
+This manipulates the spatial noise generator by combining the primary noise functions in `ambient::fracture` with `ambient::gen_worley`. The result feels like subducted terrain as opposed to volcanic.
 
 ``` r
 generate_fancy_noise <- function(x, y, seed = NULL) { 
@@ -177,7 +177,7 @@ new_grid() |> dplyr::mutate(
 
 ![The 'shattered' landscape.](/assets/shattered_set3_4.png){fig-alt="An image of the rendered 3d map distorted into bands of ridges."}
 
-Additional scripts are in the project folder and utilize some interesting functions such as **curl fields** and **curl transformations** that use a `discretize()` function to create a terracing effect. Much of the output looks like code going through puberty, awkward and unclear as to its outcome. Additoinally, there are some examples of creating different color palettes than the default `YlOrRd` being used by the native functions in the code. My final output looked like this:
+Additional scripts are in the project folder and utilize some interesting functions such as **curl fields** and **curl transformations** that use a `discretize()` function to create a terracing effect. Much of the output looks like code going through puberty, awkward and unclear as to its outcome. Additionally, there are some examples of creating different color palettes than the default `YlOrRd` being used by the native functions in the code. My final output looked like this:
 
 !['Queered' geography.](/assets/shattered_set3_10.png){fig-alt="An image of the final 3d map after several series of distortions."}
 

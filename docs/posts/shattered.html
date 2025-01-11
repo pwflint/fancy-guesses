@@ -288,7 +288,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="getting-weird" class="level4">
 <h4 class="anchored" data-anchor-id="getting-weird">Getting Weird</h4>
-<p>This manipulates the spatial noise generator by combining the primary noise functions in <code>ambient::fracture</code> with <code>ambient::gen_worley</code>. The result feels like sub-ducted geography as opposed to volcanic.</p>
+<p>This manipulates the spatial noise generator by combining the primary noise functions in <code>ambient::fracture</code> with <code>ambient::gen_worley</code>. The result feels like subducted terrain as opposed to volcanic.</p>
 <div class="sourceCode" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>generate_fancy_noise <span class="ot">&lt;-</span> <span class="cf">function</span>(x, y, <span class="at">seed =</span> <span class="cn">NULL</span>) { </span>
 <span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span>(<span class="sc">!</span><span class="fu">is.null</span>(seed)) { </span>
 <span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>    <span class="fu">set.seed</span>(seed) </span>
@@ -332,7 +332,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <figcaption>The ‘shattered’ landscape.</figcaption>
 </figure>
 </div>
-<p>Additional scripts are in the project folder and utilize some interesting functions such as <strong>curl fields</strong> and <strong>curl transformations</strong> that use a <code>discretize()</code> function to create a terracing effect. Much of the output looks like code going through puberty, awkward and unclear as to its outcome. Additoinally, there are some examples of creating different color palettes than the default <code>YlOrRd</code> being used by the native functions in the code. My final output looked like this:</p>
+<p>Additional scripts are in the project folder and utilize some interesting functions such as <strong>curl fields</strong> and <strong>curl transformations</strong> that use a <code>discretize()</code> function to create a terracing effect. Much of the output looks like code going through puberty, awkward and unclear as to its outcome. Additionally, there are some examples of creating different color palettes than the default <code>YlOrRd</code> being used by the native functions in the code. My final output looked like this:</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="../assets/shattered_set3_10.png" class="img-fluid figure-img" alt="An image of the final 3d map after several series of distortions."></p>
