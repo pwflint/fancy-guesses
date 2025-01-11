@@ -5,7 +5,7 @@ author: "Peter W. Flint"
 
 Why do data science? My only excuse is that I stumbled into it accidentally. Several years ago I was taking an introductory course in GIS applications (I like maps), and my final project was to select an example map and create a walkthrough to recreate it. I chose the [abundance maps](https://science.ebird.org/en/status-and-trends/abundance-maps) developed by eBird (I also like birds).
 
-![The relative abundance of Blue-Headed Vireos, an inquisitive bird of summertime.](_assets/image_buhvir-abundance-map-v2022-en.png){fig-alt="A map of North America illustrating the relative abundance of the Blue-Headed Vireo. The northern part is red to display its summer range. The middle is yellow, displaying its migratory range in Spring and Fall. The southern area is blue to display its Winter range." fig-align="center"}
+![The relative abundance of Blue-Headed Vireos, an inquisitive bird of summertime.](assets/image_buhvir-abundance-map-v2022-en.png){fig-alt="A map of North America illustrating the relative abundance of the Blue-Headed Vireo. The northern part is red to display its summer range. The middle is yellow, displaying its migratory range in Spring and Fall. The southern area is blue to display its Winter range." fig-align="center"}
 
 It turns out, these maps are generated with R, a statistical computing language, and not a GIS, so I redirected. But I had now discovered data science.
 
