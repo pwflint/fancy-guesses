@@ -10,7 +10,7 @@
 <atom:link href="https://fancy-guesses.co/posts/beginnings.xml" rel="self" type="application/rss+xml"/>
 <description>A place for playing with data science workflows</description>
 <generator>quarto-1.4.555</generator>
-<lastBuildDate>Sat, 11 Jan 2025 16:06:19 GMT</lastBuildDate>
+<lastBuildDate>Wed, 09 Apr 2025 16:35:15 GMT</lastBuildDate>
 <item>
   <title>Playing With Ambient</title>
   <dc:creator>Peter W. Flint</dc:creator>
@@ -242,12 +242,6 @@ font-style: inherit;">TRUE</span>) </span></code></pre></div>
 <figcaption>Basic map with ambient noise function.</figcaption>
 </figure>
 </div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://fancy-guesses.co/_assets/shattered_set3_1.png" class="img-fluid figure-img" alt="A two-dimensional &quot;heat map&quot; of noise created by applying a random seed number to a generative spatial function."></p>
-<figcaption>Basic map with ambient noise function.</figcaption>
-</figure>
-</div>
 </section>
 <section id="render-3d" class="level4">
 <h4 class="anchored" data-anchor-id="render-3d">Render 3D</h4>
@@ -374,12 +368,6 @@ font-style: inherit;">render</span>()</span></code></pre></div>
 <figcaption>The rendered output using `Rayshader`</figcaption>
 </figure>
 </div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://fancy-guesses.co/_assets/shattered_set3_2.png" class="img-fluid figure-img" alt="A three-dimensional rendered image of the previous heat map."></p>
-<figcaption>The rendered output using `Rayshader`</figcaption>
-</figure>
-</div>
 <div class="sourceCode" id="cb6" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># sea_level creates a datum that cuts off at the median value of the 'paint' column</span></span>
@@ -438,7 +426,7 @@ font-style: inherit;">render</span>()</span></code></pre></div>
 </section>
 <section id="getting-weird" class="level4">
 <h4 class="anchored" data-anchor-id="getting-weird">Getting Weird</h4>
-<p>This manipulates the spatial noise generator by combining the primary noise functions in <code>ambient::fracture</code> with <code>ambient::gen_worley</code>. The result feels like sub-ducted geography as opposed to volcanic.</p>
+<p>This manipulates the spatial noise generator by combining the primary noise functions in <code>ambient::fracture</code> with <code>ambient::gen_worley</code>. The result feels like subducted terrain as opposed to volcanic.</p>
 <div class="sourceCode" id="cb7" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1">generate_fancy_noise <span class="ot" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">&lt;-</span> <span class="cf" style="color: #003B4F;
@@ -642,7 +630,7 @@ font-style: inherit;">01</span>) </span></code></pre></div>
 <figcaption>The ‘shattered’ landscape.</figcaption>
 </figure>
 </div>
-<p>Additional scripts are in the project folder and utilize some interesting functions such as <strong>curl fields</strong> and <strong>curl transformations</strong> that use a <code>discretize()</code> function to create a terracing effect. Much of the output looks like code going through puberty, awkward and unclear as to its outcome. Additoinally, there are some examples of creating different color palettes than the default <code>YlOrRd</code> being used by the native functions in the code. My final output looked like this:</p>
+<p>Additional scripts are in the project folder and utilize some interesting functions such as <strong>curl fields</strong> and <strong>curl transformations</strong> that use a <code>discretize()</code> function to create a terracing effect. Much of the output looks like code going through puberty, awkward and unclear as to its outcome. Additionally, there are some examples of creating different color palettes than the default <code>YlOrRd</code> being used by the native functions in the code. My final output looked like this:</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://fancy-guesses.co/assets/shattered_set3_10.png" class="img-fluid figure-img" alt="An image of the final 3d map after several series of distortions."></p>
@@ -672,7 +660,7 @@ font-style: inherit;">01</span>) </span></code></pre></div>
   <category>spatial</category>
   <category>generativeRt</category>
   <guid>https://fancy-guesses.co/posts/shattered.html</guid>
-  <pubDate>Sat, 11 Jan 2025 16:06:19 GMT</pubDate>
+  <pubDate>Wed, 09 Apr 2025 16:35:15 GMT</pubDate>
 </item>
 </channel>
 </rss>
