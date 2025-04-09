@@ -10,7 +10,7 @@
 <atom:link href="https://fancy-guesses.co/posts/beginnings.xml" rel="self" type="application/rss+xml"/>
 <description>A place for playing with data science workflows</description>
 <generator>quarto-1.4.555</generator>
-<lastBuildDate>Wed, 09 Apr 2025 16:35:15 GMT</lastBuildDate>
+<lastBuildDate>Wed, 09 Apr 2025 16:37:34 GMT</lastBuildDate>
 <item>
   <title>Playing With Ambient</title>
   <dc:creator>Peter W. Flint</dc:creator>
@@ -660,7 +660,7 @@ font-style: inherit;">01</span>) </span></code></pre></div>
   <category>spatial</category>
   <category>generativeRt</category>
   <guid>https://fancy-guesses.co/posts/shattered.html</guid>
-  <pubDate>Wed, 09 Apr 2025 16:35:15 GMT</pubDate>
+  <pubDate>Wed, 09 Apr 2025 16:37:34 GMT</pubDate>
 </item>
 </channel>
 </rss>
