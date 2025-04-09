@@ -20,7 +20,3 @@ format:
 ---
 
 This a collection of early reflections and tutorials I found helpful as I started learning data science. A comprehensive list of all resources is included on the [bookmarks](bookmarks.qmd) page. The early stages of of this project are focused on creating personal accountability in distilling my notes into coherent thoughts.
-
-More options for how list pages work can be found [here](https://quarto.org/docs/websites/website-listings.html#user-tools).
-
-Overview for post directory is [here](https://quarto.org/docs/websites/website-blog.html#posts-directory).
