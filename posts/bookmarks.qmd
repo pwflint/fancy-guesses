@@ -1,0 +1,30 @@
+---
+title: "Bookmarks"
+author: "Peter W. Flint"
+---
+
+## Resources
+
+### General
+
+-   Original [Help](https://stat.ethz.ch/mailman/listinfo/r-help) page
+
+-   [CRAN Archive](https://cran.rstudio.com/ "Packages reviewed by R development staff")
+
+-   [Big](https://www.bigbookofr.com/)[Book](https://www.bigbookofr.com/ "Complete set of bookmarks for all projects using R")[of R](https://www.bigbookofr.com/)
+
+### Graphics
+
+-   [R Graphics Cookbook](https://r-graphics.org/)
+
+### Spatial
+
+-   [Simple Features Package](https://r-spatial.github.io/sf/)
+
+-   [Geocomputation With R](https://r.geocompx.org/intro "Complete guide to working with spatial data. Includes connecting across other software platforms.")
+
+### Tutorials
+
+#### Generative Art
+
+-   [Shattered Landscapes](https://blog.djnavarro.net/posts/2023-03-13_shattered-landscapes/) by Danielle Navarro

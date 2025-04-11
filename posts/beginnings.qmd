@@ -2,18 +2,21 @@
 title: "Beginnings"
 listing: 
   type: grid
+  grid-item-border: true
   sort: date
   sort-ui: [title, date]
   image-placeholder: "assets/img-default.jpg"
   categories: cloud
   feed: true
+  exclude: 
+    title: "Bookmarks"
 sidebar: 
   style: floating
   search: true
   contents: "posts/*.qmd"
 format:
   html:
-    css: assets/styles.css
+    css: ../assets/styles.css
     toc: true
     backgroundcolor: "#FFFAED"
     mainfont: Yantramanav
